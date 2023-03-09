@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-import fast_alphabet
-    print("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+from fast_alphabet import printalphabet
+printalphabet("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
