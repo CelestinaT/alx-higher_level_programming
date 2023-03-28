@@ -1,6 +1,7 @@
 0x05. Python - Exceptions
 ----------------------------------------------------------------------------------------------
 The major lessons for this project are; Why Python programming is awesome? The difference between errors and exceptions, what are exceptions and how to use them. When do we need to use exception? How to correctly handle an exception. What’s the purpose of catching exceptions? How to raise a builtin exception? When do we need to implement a clean-up action after an exception
+
 General Requirements
 ----------------------------------------------------------------------------------------------
 Allowed editors: vi, vim, emacs
@@ -37,3 +38,71 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x05-python-exceptions
 File: 2-safe_print_list_integers.py
    
+Task 3. Integers division with debug
+---------------------------------------------------------------------------------------------------
+Write a function that divides 2 integers and prints the result.
+
+Prototype: def safe_print_division(a, b): You can assume that a and b are integers. The result of the division should print on the finally: section preceded by Inside result: Returns the value of the division, otherwise: None You have to use try: / except: / finally: You have to use "{}".format() to print the result. You are not allowed to import any module
+GitHub repository: alx-higher_level_programming
+Directory: 0x05-python-exceptions
+File: 3-safe_print_division.py
+   
+Task 4. Divide a list
+---------------------------------------------------------------------------------------------------------
+Write a function that divides element by element 2 lists.
+
+Prototype: def list_division(my_list_1, my_list_2, list_length): my_list_1 and my_list_2 can contain any type (integer, string, etc.) list_length can be bigger than the length of both lists. Returns a new list (length = list_length) with all divisions If 2 elements can’t be divided, the division result should be equal to 0 If an element is not an integer or float: print: wrong type. If the division can’t be done (/0): print: division by 0. If my_list_1 or my_list_2 is too short, print: out of range. You have to use try: / except: / finally: You are not allowed to import any module
+GitHub repository: alx-higher_level_programming
+Directory: 0x05-python-exceptions
+File: 4-list_division.py
+   
+Task 5. Raise exception
+----------------------------------------------------------------------------------------------------
+Write a function that raises a type exception.
+
+Prototype: def raise_exception(): You are not allowed to import any module
+GitHub repository: alx-higher_level_programming
+Directory: 0x05-python-exceptions
+File: 5-raise_exception.py
+   
+Task 6. Raise a message
+----------------------------------------------------------------------------------------------
+Write a function that raises a name exception with a message.
+
+Prototype: def raise_exception_msg(message=""): You are not allowed to import any module
+GitHub repository: alx-higher_level_programming
+Directory: 0x05-python-exceptions
+File: 6-raise_exception_msg.py
+   
+Task 7. Safe integer print with error message
+---------------------------------------------------------------------------------------------------
+Write a function that prints an integer.
+
+Prototype: def safe_print_integer_err(value): value can be any type (integer, string, etc.) The integer should be printed followed by a new line. Returns True if value has been correctly printed (it means the value is an integer). Otherwise, returns False and prints in stderr the error precede by Exception: You have to use try: / except: You have to use "{:d}".format() to print as integer. You are not allowed to use type()
+GitHub repository: alx-higher_level_programming
+Directory: 0x05-python-exceptions
+File: 100-safe_print_integer_err.py
+   
+Task 8. Safe function
+--------------------------------------------------------------------------------------------------------------------
+Write a function that executes a function safely.
+
+Prototype: def safe_function(fct, *args):You can assume fct will be always a pointer to a function. Returns the result of the function, Otherwise, returns None if something happens during the function and prints in stderr the error precede by Exception: You have to use try: / except:
+GitHub repository: alx-higher_level_programming
+Directory: 0x05-python-exceptions
+File: 101-safe_function.py
+   
+Task 9. ByteCode -> Python #4
+------------------------------------------------------------------------------------
+Write the Python function def magic_calculation (a, b)
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x05-python-exceptions
+File: 102-magic_calculation.py
+   
+Task 10. CPython #2: PyFloatObject
+-------------------------------------------------------------------------------------------------------
+Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
+GitHub repository: alx-higher_level_programming
+Directory: 0x05-python-exceptions
+File: 103-python.c
